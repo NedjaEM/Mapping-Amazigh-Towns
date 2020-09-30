@@ -1,15 +1,14 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <amazghmap msg="Map of Historically Amazigh Villages in Tunisia"/>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import amazghmap from './components/amazghmap.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    amazghmap
   }
 }
 </script>
